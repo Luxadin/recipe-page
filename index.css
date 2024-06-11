@@ -50,6 +50,7 @@ p, li, strong{
     font-family: 'outfit';
     font-size: 16px;
     color:hsl(24, 5%, 18%);
+    line-height: 1.5em;
 }
 
 .section li{
@@ -59,7 +60,6 @@ p, li, strong{
 .list-item{
     margin-left: 2.5%;
     margin-right: 2%;
-    line-height: 1.5em;
 }
 
 ul, ol{
