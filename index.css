@@ -52,6 +52,20 @@ p, li, strong{
     color:hsl(24, 5%, 18%);
 }
 
+.section li{
+    margin-left: -2.5%;
+}
+
+.list-item{
+    margin-left: 2.5%;
+    margin-right: 2%;
+    line-height: 1.5em;
+}
+
+ul, ol{
+    margin-bottom: 2em;
+}
+
 .section{
     border-bottom: 1px solid hsl(30, 18%, 87%);
 }
