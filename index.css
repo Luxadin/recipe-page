@@ -49,11 +49,11 @@ h2{
 p, li, strong{
     font-family: 'outfit';
     font-size: 16px;
-    color:hsl(24, 5%, 18%);
+    color:hsl(30, 10%, 34%);
     line-height: 1.5em;
 }
 
-.section li{
+li{
     margin-left: -2.5%;
 }
 
@@ -62,10 +62,23 @@ p, li, strong{
     margin-right: 2%;
 }
 
-ul, ol{
+ul, ol, .description{
     margin-bottom: 2em;
 }
 
 .section{
     border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.prep-section{
+    background-color: hsl(330, 100%, 98%);
+    padding: 0.5% 5% 0.5% 5%;
+    border-radius: 20px;
+}
+
+.prep-section h2{
+    font-family: 'outfit';
+    font-size: 20px;
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
 }
